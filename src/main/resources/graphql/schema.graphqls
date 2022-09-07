@@ -1,3 +1,8 @@
+type Query{
+    allBooks: [Book]
+    findOne(id:Int):Book
+}
+
 type Book {
     id: ID!
     title: String
